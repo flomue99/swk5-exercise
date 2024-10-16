@@ -1,8 +1,8 @@
 ﻿namespace HashDictionary.Client
 {
-    internal class PersonClass
+    internal class PersonClass (string name, DateTime dob)
     {
-        public string Name { get; init; }
-        public DateTime DateOfBirth { get; init; }
+        public string Name { get; init; } = name;
+        public DateTime DateOfBirth { get; init; } = dob;
     }
 }
