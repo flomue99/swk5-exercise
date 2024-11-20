@@ -9,7 +9,10 @@ namespace ApiDemo.Controllers
         [HttpGet]
         public object GetTime()
         {
-            return DateTime.UtcNow.ToString("o");
+            //return Content(content: DateTime.UtcNow.ToString("o"), contentType: "text/plain");
+
+            //as JSON
+            return new { Time = DateTime.UtcNow };
         }
     }
 }

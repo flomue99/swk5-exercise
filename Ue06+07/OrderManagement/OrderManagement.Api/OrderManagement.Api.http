@@ -1,0 +1,9 @@
+@baseUrl = https://localhost:8001
+
+GET {{baseUrl}}/api/customers
+
+###
+GET {{baseUrl}}/api/customers/cccccccc-0000-0000-0000-222222222222
+
+###
+GET {{baseUrl}}/api/customers/cccccccc-0000-0000-0000-222222422222

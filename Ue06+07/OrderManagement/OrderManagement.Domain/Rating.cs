@@ -2,7 +2,7 @@
 
 public enum Rating
 {
-  A,
-  B,
-  C
+    A,
+    B,
+    C
 }
