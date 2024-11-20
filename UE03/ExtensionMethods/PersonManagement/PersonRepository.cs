@@ -81,7 +81,7 @@ public class PersonRepository
         //}
 
         //version 3
-        return this.persons.Filter((Person p) => p.City == city);
+        return this.persons.Filter( p => p.City == city);
     }
 
     public Person FindYoungestPerson()
